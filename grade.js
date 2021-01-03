@@ -1,12 +1,12 @@
 function submit() {
     let submitButton = document.getElementById("submitButton").innerHTML;
 
-    let numbersT = document.getElementById("numbersT").innerHTML;
-    let lettersT = document.getElementById("lettersT").innerHTML;
-    let Quizes = document.getElementById("Quizes").value;
-    let Midterm = document.getElementById("Midterm").value;
-    let FinalTest = document.getElementById("FinalTest").value;
-    let Oral = document.getElementById("Oral").value;
+    let numbersT =parseInt( document.getElementById("numbersT").innerHTML);
+    let lettersT = parseInt( document.getElementById("lettersT").innerHTML);
+    let Quizes =parseInt( document.getElementById("Quizes").value);
+    let Midterm =parseInt( document.getElementById("Midterm").value);
+    let FinalTest =parseInt( document.getElementById("FinalTest").value);
+    let Oral =parseInt( document.getElementById("Oral").value);
 
 
 
